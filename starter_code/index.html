@@ -22,7 +22,7 @@
     <div>
       <img src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul id="nav-items">
         <li>
           <a href="#">Product</a>
         </li>
@@ -39,11 +39,11 @@
     </div>
 
     <div>
-      <button>
+      <button class="nav-button">
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
+      <button class="nav-button">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
@@ -64,12 +64,12 @@
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p class="header-text"><span class="yellow-text">Slack is free to try</span> for as long as you'd like</p>
 
       <div>
         <button>Sign up with email</button>
 
-        <button>
+        <button class="blue-button">
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
@@ -78,15 +78,15 @@
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img class="ui-image" src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
+    <section class="company-container">
       <p>Trusted by companies all over the world</p>
 
-      <div>
+      <div class="company-images">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -97,61 +97,63 @@
 
     </section>
 
-    <section>
-      <h3>Teams large and small rely on Slack</h3>
-      <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+    <section class="stats">
+      <h3 class="title-stats">Teams large and small rely on Slack</h3>
+      <p class="paragraph-stats">Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
 
       <ul>
         <li>
-          <p><span>85%</span></p>
-          <p>
+          <p><span class="formatted-stats">85%</span></p>
+          <p class="text-stats">
             of users say Slack has improved communication
             <sup>*</sup>
           </p>
         </li>
 
         <li>
-          <p><span>86%</span></p>
-          <p>
+          <p><span class="formatted-stats">86%</span></p>
+          <p class="text-stats">
             feel their ability to work remotely has improved has improved
             <sup>*</sup>
           </p>
         </li>
 
         <li>
-          <p><span>88%</span></p>
-          <p>
+          <p><span class="formatted-stats">88%</span></p>
+          <p class="text-stats">
             feel more connected to their teams*
             <sup>*</sup>
           </p>
         </li>
       </ul>
+      <p class="footer-text">* Weighted average. Based on 2,707 survey responses from weekly Slack users in the U.S., UK, Australia and Canada with a +- 2% margin of error at 95% Cl (August 2020)</p>
     </section>
 
-    <section>
+    <section class="sales-section">
       <h3>Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button class="button-free">Try for free</button>
+      <button class="button-sales">Talk to sales</button>
     </section>
 
   </main>
 
   <footer>
-    <ul>
+    <hr>
+    <ul class="website-links">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
       <li>Cookie Preferences</li>
       <li>Contact Us</li>
-      <li>Change Region</li>
-      <li>Download Slack</li>
+      <li><img src="images/icon-region.png" alt="Icon Region">Change Region</li>
+      <li><img src="images/icon-download.png" alt="Icon Download">Download Slack</li>
     </ul>
 
-    <hr>
+    
 
-    <ul>
+    <ul class="social-links">
       <li>
         <i class="fab fa-twitter"></i>
       </li>
@@ -166,7 +168,7 @@
       </li>
     </ul>
 
-    <div>
+    <div class="footer-text">
       <small>
         &copy; 2022 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by
         their respective owners.

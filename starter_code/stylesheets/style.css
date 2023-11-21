@@ -8,3 +8,287 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Reset above*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #191817;
+}
+
+p, span {
+    color: #000000;
+}
+
+img {
+    height: 50px;
+}
+
+nav, header {
+    background-color: #540B51;
+}
+
+#nav-items {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+nav img {
+    height: 20px;
+}
+
+.nav-button {
+    background-color: #540B51;
+    border: none;
+}
+
+nav div {
+    display: flex;
+    gap: 15px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+p.header-text {
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px 0;
+    margin: 0 10px;
+    text-align: center;
+}
+.yellow-text {
+    color: #ECB12F;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+}
+
+header div button {
+    background-color: white;
+    margin: 10px;
+    color: #540B51;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    
+}
+ 
+header div button img {
+    height: 30px;
+}
+
+.blue-button {
+    background-color: #4285F4;
+    color: white;
+    border-color: #4285F4;   
+}
+
+.blue-button span {
+    flex: 1;
+    text-align: center;
+    color: white;
+}
+
+.blue-button img {
+    background-color: white;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.ui-image {
+    flex-shrink: 0;
+    height: 100%;
+    width: 150%;
+}
+
+.company-container {
+    background-color: #F3EAE2;
+    padding: 30px 10px;
+}
+
+.company-container p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.company-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.company-images img {
+    height: 30px;
+    padding: 5px;
+}
+
+.stats {
+    text-align: center;
+    padding: 30px 10px;
+    margin: 30px 10px;
+}
+
+.title-stats {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #540B51;
+    padding-bottom: 10px;
+}
+
+.paragraph-stats {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.stats li {
+    padding-bottom: 30px;
+}
+
+.formatted-stats {
+    font-size: 2rem;
+    color: #540B51;
+    font-weight: bold;
+}
+
+.text-stats {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0 60px;
+}
+
+.footer-text {
+    color: #454245;
+    font-size: 0.6rem;
+}
+
+.sales-section {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.sales-section h3 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.sales-section button {
+    border-color: white;
+    border-radius: 3px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button-free {
+    background-color: white;
+    color: #540B51;
+}
+
+.button-sales {
+    margin: 10px 0;
+    color: white;
+    background-color: #540B51;
+}
+
+footer {
+    padding: 15px 15px;
+}
+
+.website-links{
+    padding: 10px 0;
+}
+
+.website-links li{
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 4px 0;
+}
+
+.website-links li img {
+    height: 15px;
+    padding-right: 5px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
