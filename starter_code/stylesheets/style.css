@@ -159,8 +159,12 @@ header div button img {
     border-color: white;
 }
 
+.container-image {
+    overflow: hidden;
+}
+
 .ui-image {
-    flex-shrink: 0;
+    position: 0 0;
     height: 100%;
     width: 150%;
 }
